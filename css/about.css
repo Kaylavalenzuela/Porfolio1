@@ -1,0 +1,32 @@
+#nav {
+  background-image: url("../img/autumn.jpg");
+  background-position: center;
+  background-size: cover;
+  height: 700px;
+  border-bottom: none;
+  font-family: 'Dancing Script', cursive;
+  font-size: 20px;
+  transition: opacity 0.325s ease-in-out, transform 0.325s ease-in-out;
+
+}
+
+#nav-position {
+  position: center;
+  position :relative; left: 550px;
+  padding-top: 150px;
+  text-align: center;
+}
+
+#animation {
+    -moz-transform: translateY(0.25rem);
+    -webkit-transform: translateY(0.25rem);
+    -ms-transform: translateY(0.25rem);
+    transform: translateY(0.25rem);
+    -moz-transition: opacity 0.325s ease-in-out, -moz-transform 0.325s ease-in-out;
+    -webkit-transition: opacity 0.325s ease-in-out, -webkit-transform 0.325s ease-in-out;
+    -ms-transition: opacity 0.325s ease-in-out, -ms-transform 0.325s ease-in-out;
+    transition: opacity 0.325s ease-in-out, transform 0.325s ease-in-out;
+    position: relative;
+    max-width: 100%;
+    opacity: 0;
+}
