@@ -1,0 +1,159 @@
+#nav {
+  background-image: url("../img/autumn.jpg");
+  background-position: center;
+  background-size: cover;
+  height: 700px;
+  border-bottom: none;
+  font-family: 'Dancing Script', cursive;
+  font-size: 20px;
+    top: 50%;
+    left: 40%;
+    text-align: center;
+}
+
+#Welcome {
+  text-align: center;
+  font-family: 'Lobster', cursive;
+  position: center;
+  text-align: center;
+  padding-top: 200px;
+}
+
+.welcome #nav-position {
+  white-space: nowrap;
+overflow: hidden;
+width: 30em;
+animation: type2 10s steps(60, end);
+}
+
+.welcome p {
+  overflow: hidden; /* Ensures the content is not revealed until the animation */
+    border-right: .15em #FFF; /* The typwriter cursor */
+    white-space: nowrap; /* Keeps the content on a single line */
+    margin: 0 auto; /* Gives that scrolling effect as the typing happens */
+    letter-spacing: .5em; /* Adjust as needed */
+    animation:
+      typing 10s steps(60),
+      blink-caret 5s step-end infinite;
+      font-size: 50px;
+      color: #fff;
+}
+
+@keyframes typing {
+  from { width: 0 }
+  to { width: 75% }
+}
+
+/* The typewriter cursor effect */
+@keyframes blink-caret {
+  from, to { border-color: #FFF }
+  100% { border-color: #FFF; }
+  animation: blink 2s infinite;
+}
+
+
+
+body {
+  background-image: url("../img/wood.jpg");
+
+}
+
+.img-thumbnail1 {
+    height:300px;
+    width: 300px;
+}
+
+img:hover {
+    opacity: 0.6;
+    filter: alpha(opacity=50);
+}
+
+#Sites {
+  text-align: center;
+  font-family: 'Lobster', cursive;
+  padding-top: 200px;
+}
+
+#row1 {
+  margin-right: 15px;
+  padding-top:  30px;
+}
+
+#row2 {
+  margin-right: 15px;
+  padding-top:  30px;
+}
+
+
+.nav-tabs>li.active>a, .nav-tabs>li.active>a:focus, .nav-tabs>li.active>a:hover {
+  cursor: default;
+  background-color: transparent;
+  border: 1px solid transparent;
+  border-radius: 4px 4px 0 0;
+  position: relative;
+  display: block;
+  padding: 10px 15px;
+  outline-color: #FFF;
+}
+
+.nav-tabs>li.active>a, .nav-tabs>li.active>a:focus {
+  border: none;
+  color: #FFF;
+}
+
+
+.nav-tabs {
+    border-bottom: transparent;
+}
+
+.nav>li>a:hover {
+    text-decoration: none;
+    background-color: transparent;
+}
+
+a:focus, a:hover {
+    color: #FFF;
+    text-decoration: underline;
+}
+
+.nav-tabs>li.active>a, .nav-tabs>li.active>a:focus, .nav-tabs>li.active>a:hover {
+  color: #FFF;
+
+}
+
+
+a {
+    color: #FFF;
+    text-decoration: none;
+}
+
+.footer {
+background-color: rgba(81, 81,81, .4);
+padding-top: 200px;
+
+#kayla {
+  margin-left: 50px;
+}
+
+/*Modals*/
+
+
+
+
+
+
+
+/*Media Quieries*/
+@media screen and (max-width: 1000px) {
+    #nav {
+        width: 100%;
+    }
+
+    nav-tabs {
+        width: 12.5%;
+    }
+
+    #nav-position {
+        width: 100%;
+    }
+}
